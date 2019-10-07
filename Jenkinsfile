@@ -5,7 +5,9 @@ pipeline{
     agent {
         label 'master'
     }
-
+    tools {
+        maven 'Maven 3.2.5'
+    }
     stages{
             stage('build') {
                 steps{
