@@ -6,7 +6,7 @@ pipeline{
         label 'master'
     }
     tools {
-        maven 'Maven 3.2.5'
+        maven 'Maven-3.6.2'
     }
     stages{
             stage('build') {
